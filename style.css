@@ -1,0 +1,56 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+  background-color: #f1f3f2;
+}
+
+
+/*Header*/
+
+header {
+  height: 62px;
+  width: 100%;
+  background-color: #FFF;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .1);
+}
+
+#logo {
+  width: 110px;
+  padding: 14px;
+}
+
+/*Dashboard container*/
+
+#dashboard {
+  margin: 12px;
+}
+
+/*Sidebar*/
+
+#sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background-color: #f1f3f2;;
+    overflow-x: hidden;
+    margin-top: 0px;
+}
+
+/*Feed*/
+
+#feed {
+  width: 80%;
+  height: 3000px;
+  display: block;
+  background-color: #FFF;
+  z-index: 1;
+  margin-top: 70px;
+}
