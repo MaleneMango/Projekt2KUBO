@@ -71,8 +71,9 @@ header {
   flex-flow: column wrap;
   width: 100%;
   height: auto;
+  align-items: center;
 }
 
 .masonry img {
-  padding: 5px;
+  padding: 3px;
 }
