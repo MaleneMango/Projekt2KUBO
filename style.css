@@ -45,13 +45,28 @@ header {
     margin-top: 0px;
 }
 
-#sidebar p {
+#welcome {
   font-size: 0.8em;
   line-height: 1.5;
   text-align: justify;
   text-justify: inter-word;
   font-family: 'Lato', sans-serif;
   padding: 10px;
+}
+
+#sidebar img {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.new {
+  color: #216393;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Lato';
+  padding-left: 30px;
+  padding-bottom: 5px;
 }
 
 /*Feed wrapper*/
