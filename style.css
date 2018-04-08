@@ -186,3 +186,8 @@ label {
 .masonry img {
   margin: 3px;
 }
+
+/*Test*/
+.lessonplan {
+  display: block;
+}
