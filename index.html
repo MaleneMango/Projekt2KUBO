@@ -28,8 +28,8 @@
         <input type="checkbox" name="showlessonplans" id="showlessonplans" onclick="showLessonplans()">
         <span class="checkmark"></span>
       </label>
-      <label class="container">Posts
-        <input type="checkbox" name="showposts" id="showposts" >
+      <label class="container" onclick="showPosts()">Posts
+        <input type="checkbox" name="showposts" id="showposts" onclick="showPosts()">
         <span class="checkmark"></span>
       </label>
       <br>
@@ -43,7 +43,7 @@
         <span class="checkmark"></span>
       </label>
       <label class="container">Trending
-        <input type="radio" name="sortby">
+        <input type="radio" name="sortby" id="trending">
         <span class="checkmark"></span>
       </label>
       <label class="container">KUBO-Approved
@@ -52,26 +52,39 @@
       </label>
     </div>
     <div id="feed">
-      <div class="masonry">
-        <div class="lessonplan" id="l1"><img src="img/lessonplan1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="lessonplan" id="l2"><img src="img/lessonplan1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="lessonplan" id="l3"><img src="img/lessonplan1.png"></div>
-        <div class="lessonplan" id="l4"><img src="img/lessonplan1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="lessonplan" id="l5"><img src="img/lessonplan1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="lessonplan" id="l6"><img src="img/lessonplan1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="lessonplan" id="l7"><img src="img/lessonplan1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
-        <div class="lessonplan" id="l8"><img src="img/lessonplan1.png"></div>
-        <div class="lessonplan" id="l9"><img src="img/lessonplan1.png"></div>
-        <div class="post"><img src="img/post1.png"></div>
+      <div id="content">
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="post"><img src="img/post.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
+        <div class="lessonplan"><img src="img/lessonplan.png"></div>
       </div>
     </div>
   </div>
