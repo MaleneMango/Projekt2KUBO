@@ -25,26 +25,134 @@ header {
   margin-left: 10px;
 }
 
-/*Dashboard container*/
-#dashboard {
-  margin: 12px;
+nav {
+  float: right;
+  list-style-type: none;
+  margin-right: 5px;
 }
+
+li {
+    display: inline-block;
+    padding: 12px;
+    font-family: 'Lato', sans-serif;
+    color: #216393;
+    font-weight: bold;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+/*Dropdown menus*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top: 3px;
+}
+
+.dropdown:hover .lang-content {
+    display: block;
+}
+
+.dropdown:hover .prof-content {
+    display: block;
+}
+
+
+/*Dropdown menu - Language*/
+.dropbtnlang {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.lang-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 140px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.1);
+    z-index: 3;
+    right: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.lang-content a {
+    color: #424242;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.lang-content p {
+  float: right;
+}
+
+/*Flags*/
+.lang-content img {
+  margin-right: 5px;
+}
+
+.lang-content a:hover {background-color: #f0f0f0}
+
+/*Dropdown menu - Profile*/
+.dropbtnprof {
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.prof-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 140px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.1);
+    z-index: 3;
+    right: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.prof-content a {
+    color: #424242;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.prof-content a:hover {background-color: #f0f0f0}
+
+
+
 
 /*Sidebar*/
 #sidebar {
-    height: 100%;
+    height: 90%;
     width: 20%;
     position: fixed;
     z-index: 1;
     right: 0;
     background-color: #f1f3f2;;
-    overflow-x: hidden;
+    overflow-y: scroll;
     margin-top: 0px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
 }
 
+#sidebar::-webkit-scrollbar { width: 0 !important }
+
 #welcome {
-  font-size: 0.8em;
+  font-size: 13px;
   line-height: 1.5;
   text-align: justify;
   text-justify: inter-word;
@@ -68,12 +176,20 @@ header {
   padding-bottom: 5px;
 }
 
+.new:hover{
+  cursor: pointer;
+}
+
 #search {
   width: 75%;
   height: 20px;
   margin-top: 20px;
   margin-left: 10px;
   float: left;
+}
+
+input[type=text]:focus{
+  outline-color: #00a29b;
 }
 
 #searchicon {
@@ -133,7 +249,7 @@ label {
 
 /*Checked BG*/
 .container input:checked ~ .checkmark {
-  background-color: #fff; /*Temporary color*/
+  background-color: #fff;
 }
 
 /*Hidden when not checked*/
@@ -154,14 +270,47 @@ label {
   top: 1px;
   width: 5px;
   height: 8px;
-  border: solid #262626;
+  border: solid #00a29b;
   border-width: 0 2.5px 2.5px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-/*Feed wrapper*/
+#approved {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+#approved h4 {
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+#approved p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#approved img {
+  height: 25px;
+  width: 25px;
+  float: left;
+}
+
+footer {
+  font-size: 12px;
+  color: #424242;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding-bottom: 40px;
+}
+/*Dashboard container*/
+#dashboard {
+  margin: 12px;
+}
+
+/*Feed*/
 #feed {
   width: 80%;
   height: auto;
@@ -189,6 +338,16 @@ label {
   display: block;
 }
 
+.lessonplan:hover {
+  opacity: 0.3;
+}
+
 .post {
   display: block;
 }
+
+.post:hover {
+  opacity: 0.3;
+}
+
+/*Test*/
