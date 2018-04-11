@@ -35,6 +35,7 @@ li {
     display: inline-block;
     padding: 12px;
     font-family: 'Lato', sans-serif;
+    font-size: 15px;
     color: #216393;
     font-weight: bold;
 }
@@ -339,7 +340,7 @@ footer {
 }
 
 .lessonplan:hover {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .post {
@@ -347,7 +348,7 @@ footer {
 }
 
 .post:hover {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 /*Test*/
