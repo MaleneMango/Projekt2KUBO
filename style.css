@@ -361,4 +361,21 @@ footer {
   opacity: 0.8;
 }
 
-/*Test*/
+/*Lessonplan Preview - lessonplan.html*/
+
+#lessonplanpreview {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+}
+
+#profpic {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+article {
+  padding: 10px;
+}
