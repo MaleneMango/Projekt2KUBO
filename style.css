@@ -31,17 +31,27 @@ nav {
   margin-right: 5px;
 }
 
-li {
+#list {
     display: inline-block;
-    padding: 12px;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     color: #216393;
     font-weight: bold;
+    text-decoration: none;
 }
 
-li:hover {
+#list a {
+  text-decoration: none;
+  color: #216393;
+}
+
+#list:hover {
   cursor: pointer;
+}
+
+.menu {
+  padding: 12px;
+  display: inline-block;
 }
 
 /*Dropdown menus*/
@@ -351,4 +361,21 @@ footer {
   opacity: 0.8;
 }
 
-/*Test*/
+/*Lessonplan Preview - lessonplan.html*/
+
+#lessonplanpreview {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+}
+
+#profpic {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+article {
+  padding: 10px;
+}
