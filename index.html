@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,44 +10,44 @@
   </head>
   <body>
     <header>
-      <img src="img/KEDU-Logo.png" alt="KEDU" id="logo">
+      <img src="img/KEDU-Logo.png" alt="KEDU Logo" id="logo">
       <nav>
-        <ul>
-          <li>Dashboard</li>
-          <li>Material</li>
-          <li>FAQ</li>
+        <div id="list">
+          <div class="menu"><a href="index.html">DASHBOARD</a></div>
+          <div class="menu">DOWNLOADS</div>
+          <div class="menu">FAQ</div>
           <div class="dropdown">
-            <button class="dropbtnlang"><img src="img/new_icon.png" alt""></button>
+            <div class="dropbtnlang"><img src="img/int.png" alt=""></div>
             <div class="lang-content">
-              <a href=""><img src="" alt"">International (English)</a>
-              <a href=""><img src="" alt"">Norway</a>
-              <a href=""><img src="" alt"">Denmark</a>
-              <a href=""><img src="img/SE.png" alt"">Sweden</a>
-              <a href=""><img src="" alt"">Finland</a>
-              <a href=""><img src="" alt"">United Kingdom</a>
-              <a href=""><img src="" alt"">United States</a>
+              <a href=""><img src="img/int2.png" alt="international"><p>International</p></a>
+              <a href=""><img src="img/NO.png" alt="Flag (Norway)"><p>Norway</p></a>
+              <a href=""><img src="img/DK.png" alt="Flag (Denmark)"><p>Denmark</p></a>
+              <a href=""><img src="img/SE.png" alt="Flag (Sweden)"><p>Sweden</p></a>
+              <a href=""><img src="img/FI.png" alt="Flag (Finland)"><p>Finland</p></a>
+              <a href=""><img src="img/UK.png" alt="Flag (United Kingdom)"><p>United Kingdom</p></a>
+              <a href=""><img src="img/US.png" alt="Flag (United States)"><p>United States</p></a>
             </div>
           </div>
           <div class="dropdown">
-            <button class="dropbtnprof"><img src="img/new_icon.png" alt""></button>
+            <div class="dropbtnprof"><img src="img/prof2.png" alt="KUBO Profile Image"></div>
             <div class="prof-content">
-              <a href=""><img src="" alt"">My Profile</a>
-              <a href=""><img src="" alt"">Settings</a>
-              <a href=""><img src="" alt"">Log Out</a>
+              <a href="">My Profile</a>
+              <a href="">Settings</a>
+              <a href="">Log Out</a>
             </div>
           </div>
-        </ul>
+        </div>
       </nav>
     </header>
     <div id="dashboard">
-    <div id="sidebar">
-      <p id="welcome">(Welcome to KEDU! This is the dashboard where you can find various lessonplans and posts created by you and us, with questions and suggestions. Together we create, inspire, share and find new ways to teach with the KUBO Robot. Go ahead and create your first lessonplan or write a new post!)</p>
-      <a href=""><img src="img/new_icon.png" alt="" class="newicon"></a>
+    <aside id="sidebar">
+      <p id="welcome">KUBO Education (KEDU) is an online platform for teachers and educators, who wish to share their knowledge and experience with KUBO and the TagTiles. This is the dashboard where you can find lessonplans and posts created by teachers from all over the world. Together we create, inspire, share and find new ways to teach with KUBO. Go ahead and create a lessonplan or write a new post!</p>
+      <a href=""><img src="img/new_icon.png" alt="new post" class="newicon"></a>
       <p class="new">Write new post</p>
-      <a href=""><img src="img/new_icon.png" alt="" class="newicon"></a>
+      <a href=""><img src="img/new_icon.png" alt="new lessonplan" class="newicon"></a>
       <p class="new">Create new lessonplan</p>
       <input type="text" placeholder="Search.." id="search">
-      <img src="img/search_icon.png" alt="" id="searchicon">
+      <img src="img/search_icon.png" alt="search icon" id="searchicon">
       <p class="sorting">Show:</p>
       <label class="container" onclick="showLessonplans()">Lessonplans
         <input type="checkbox" name="showlessonplans" id="showlessonplans" onclick="showLessonplans()">
@@ -76,47 +76,42 @@
         <span class="checkmark"></span>
       </label>
       <div id="approved">
-        <img src="img/approvedstamp.png" alt="">
-        <h4 id="approved">KUBO-Approved</h4>
-        <p>The KUBO-Approved stamp is given to posts and lessonplans which are especially creative and inspiring. These are recommended by us.</p>
+        <img src="img/approvedstamp.png" alt="KUBO-Approved stamp">
+        <h4>KUBO-Approved</h4>
+        <p>The KUBO-Approved stamp is given to posts and lessonplans which are especially creative and inspiring. These are highly recommended by KUBO Robotics.</p>
       </div>
       <br>
-      <footer>&copy; Copyright 2018 KUBO.Education </footer>
-    </div>
+      <footer>&copy; Copyright 2018</footer>
+    </aside>
     <div id="feed">
       <div id="content">
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="post"><a href=""><img src="img/post.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
-        <div class="lessonplan"><a href=""><img src="img/lessonplan.png"></a></div>
+        <div class="lessonplan"><a href="lessonplan.html"><img src="img/lessonplan1.png" alt="lessonplan"></a></div>
+        <div class="post"><a><img src="img/post1.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan2.png" alt="lessonplan"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan3.png" alt="lessonplan"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan4.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post2.png" alt="post"></a></div>
+        <div class="post"><a href=""><img src="img/post4.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan5.png" alt="lessonplan"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan1.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post5.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan2.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post1.png" alt="post"></a></div>
+        <div class="post"><a href=""><img src="img/post3.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan3.png" alt="lessonplan"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan4.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post5.png" alt="post"></a></div>
+        <div class="post"><a href=""><img src="img/post1.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan5.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post3.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan1.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post2.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan3.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post3.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan2.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post4.png" alt="post"></a></div>
+        <div class="lessonplan"><a href=""><img src="img/lessonplan1.png" alt="lessonplan"></a></div>
+        <div class="post"><a href=""><img src="img/post5.png" alt="post"></a></div>
       </div>
     </div>
   </div>
