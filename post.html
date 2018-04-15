@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>KEDU - The Educational Community and Curriculum Platform</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="img/KEDU-Logo.png" alt="KEDU Logo" id="logo"></a>
+      <nav>
+        <div id="list">
+          <div class="menu"><a href="index.html">DASHBOARD</a></div>
+          <div class="menu">DOWNLOADS</div>
+          <div class="menu">FAQ</div>
+          <div class="dropdown">
+            <div class="dropbtnlang"><img src="img/int.png" alt=""></div>
+            <div class="lang-content">
+              <a href=""><img src="img/int2.png" alt="international"><p>International</p></a>
+              <a href=""><img src="img/NO.png" alt="Flag (Norway)"><p>Norway</p></a>
+              <a href=""><img src="img/DK.png" alt="Flag (Denmark)"><p>Denmark</p></a>
+              <a href=""><img src="img/SE.png" alt="Flag (Sweden)"><p>Sweden</p></a>
+              <a href=""><img src="img/FI.png" alt="Flag (Finland)"><p>Finland</p></a>
+              <a href=""><img src="img/UK.png" alt="Flag (United Kingdom)"><p>United Kingdom</p></a>
+              <a href=""><img src="img/US.png" alt="Flag (United States)"><p>United States</p></a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropbtnprof"><img src="img/prof2.png" alt="KUBO Profile Image"></div>
+            <div class="prof-content">
+              <a href="">My Profile</a>
+              <a href="">Settings</a>
+              <a href="">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="dashboard">
+    <aside id="sidebar">
+      <img src="img/profilepic1.png" alt="profile picture (purple)" id="profpic">
+      <div id="profinfo">
+        <p><b>Name:</b> Robert Jackson <br>
+        <b>School:</b> Roosevelt Primary School <br>
+        <b>Country: </b> United States <br>
+        <b>Points:</b> 30</p>
+      </div>
+      <div id="approvedpost">
+        <img src="img/approvedstamp.png" alt="KUBO-Approved stamp">
+        <h4>KUBO says:</h4>
+        <p>"That is a great idea! We will definitely take this into consideration. So many options!"</p>
+      </div>
+
+      <footer>&copy; Copyright 2018</footer>
+    </aside>
+    <div id="feed">
+      <div id="postpreview">
+        <article>
+          <a href="index.html"><img src="img/goback.png" alt="Return button"></a>
+          <div id="starcommentshare">
+            <a href=""><img src="img/star.png" alt="favorite" id="favorite" class="posticons"></a>
+            <a href="#commentform"><img src="img/comment.png" alt="comment" class="posticons"></a>
+            <a href=""><img src="img/share.png" alt="share" class="posticons"></a>
+          </div>
+          <h1>What if the robot could talk?</h1>
+          <p id="date">Posted 04/10/2019 by Robert Jackson</p>
+          <p id="posttext">Okay so, I had an idea the other day when working with the robots and I thought to myself - what if the robot made sounds too? If there was a sound to each Tagtile, it would be interesting to learn the kids to memorize patterns like if their eyes are closed. Imagine this exercise - one student closes his/her eyes and another student creates a path with the Tagtiles, then the student with his/her eyes closed has to listen and then recreate the same pattern and guess. What do you think? What else could sound add?</p>
+          <section id="commentsection">
+            <h2>Comments</h2>
+
+            <div id="newcomment">
+            <textarea rows="5" name="commentform" id="commentform" placeholder="Write a comment.."></textarea>
+            <br>
+            <input type="submit" name="submit" value="Add Comment" id="addcomment">
+            </div>
+
+          </section>
+
+        </article>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
