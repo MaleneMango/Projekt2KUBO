@@ -7,6 +7,19 @@ html {
   background-color: #f1f3f2;
 }
 
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 /*Header*/
 header {
@@ -208,6 +221,10 @@ input[type=text]:focus{
   margin-bottom: 30px;
 }
 
+#searchicon:hover {
+  cursor: pointer;
+}
+
 .sorting {
   color: #216393;
   font-size: 14px;
@@ -289,6 +306,7 @@ label {
 #approved {
   margin-left: 10px;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 #approved h4 {
@@ -345,6 +363,10 @@ footer {
 
 .lessonplan {
   display: block;
+  height: 320px;
+  width: 320px;
+  margin: 3px;
+  font-family: 'Lato';
 }
 
 .lessonplan:hover {
@@ -353,20 +375,224 @@ footer {
 
 .post {
   display: block;
+  height: 320px;
+  width: 320px;
+  margin: 3px;
+  font-family: 'Lato';
 }
 
 .post:hover {
   opacity: 0.8;
 }
 
-/*Lessonplan Preview - lessonplan.html*/
+/*Lessonplans Style*/
 
-#lessonplanpreview {
+.h2lessonplan {
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 200px;
+  font-size: 28px;
+  color: #000;
+  font-weight: lighter;
+}
+
+.plessonplan {
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 12px;
+  color: #424242;
+  display: inline-block;
+}
+
+.lessondescription {
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.lpapproved {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  float: right;
+  padding: 10px;
+}
+
+/*Lessonplan background images*/
+
+#lp1 {
+  background-image: url(img/lp1.png);
+}
+
+#lp2 {
+  background-image: url(img/lp2.png);
+}
+
+#lp3 {
+  background-image: url(img/lp3.png);
+}
+
+#lp4 {
+  background-image: url(img/lp4.png);
+}
+
+#lp5 {
+  background-image: url(img/lp5.png);
+}
+
+#lp6 {
+  background-image: url(img/lp1.png);
+}
+
+#lp7 {
+  background-image: url(img/lp2.png);
+}
+
+#lp8 {
+  background-image: url(img/lp3.png);
+}
+
+#lp9 {
+  background-image: url(img/lp5.png);
+}
+
+/*Post Style*/
+
+.h2post {
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 10px;
+  font-size: 24px;
+  color: #000;
+  font-weight: lighter;
+  padding-bottom: 218px;
+
+}
+
+.papproved {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  float: right;
+  padding: 10px;
+  top: -40px;
+}
+
+/*Post background images*/
+
+#p1 {
+  background-image: url(img/p1.png);
+}
+
+#p2 {
+  background-image: url(img/p2.png);
+}
+
+#p3 {
+  background-image: url(img/p3.png);
+}
+
+#p4 {
+  background-image: url(img/p4.png);
+}
+
+#p5 {
+  background-image: url(img/p5.png);
+}
+
+#p6 {
+  background-image: url(img/p1.png);
+}
+
+#p7 {
+  background-image: url(img/p2.png);
+}
+
+#p8 {
+  background-image: url(img/p3.png);
+}
+
+#p9 {
+  background-image: url(img/p4.png);
+}
+
+/*General Post/Lessonplan Style*/
+
+.info {
+  text-align: left;
+}
+
+.profpic {
+  height: 45px;
+  width: 45px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.name {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 1px;
+  padding-top: 7px;
+}
+
+.date {
+  font-size: 12px;
+  color: #424242;
+  float: left;
+  padding: 1px;
+}
+
+.numbers {
+  font-size: 12px;
+  color: #424242;
+  float: left;
+  margin-right: 10px;
+  padding: 1px;
+}
+
+.commenticon {
+  height: 12px;
+  float: left;
+  padding-left: 10px;
+}
+
+.staricon {
+  height: 12px;
+  float: left;
+}
+
+
+/*Post.html*/
+
+#postpreview {
     display: block;
     width: 100%;
     height: auto;
     padding: 3px;
 }
+
+article {
+  padding: 10px;
+}
+
+#commentsection {
+  font-family: 'Lato',sans-serif;
+}
+
+#date {
+  font-size: 12px;
+  color: #707070;
+}
+
+#posttext {
+  line-height: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*Post sidebar*/
 
 #profpic {
   padding: 10px;
@@ -374,6 +600,79 @@ footer {
   margin: 0 auto;
 }
 
-article {
-  padding: 10px;
+#profinfo {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+#approvedpost {
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+#approvedpost h4 {
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+#approvedpost p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#approvedpost img {
+  height: 25px;
+  width: 25px;
+  float: left;
+}
+
+/*Post icons*/
+
+#favorite:hover {
+  background-image: url(img/starfill.png);
+}
+
+.posticons {
+  margin-right: 10px;
+}
+
+#starcommentshare {
+  float: right;
+}
+
+/*Commment Section*/
+
+#newcomment {
+  margin-top: 10px;
+}
+
+#commentform {
+  border-radius: 3px;
+  width: 400px;
+  border-style: solid;
+  font-family: 'Lato', sans-serif;
+  padding: 6px 9px;
+}
+
+textarea:focus{
+  outline-color: #00a29b;
+}
+
+#addcomment {
+  background-color: #00a29b;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #00a29b;
+  padding: 7px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#addcomment:hover {
+  background-color: #fff;
+  color: #00a29b;
+  cursor: pointer;
+  border-color: #00a29b;
 }
