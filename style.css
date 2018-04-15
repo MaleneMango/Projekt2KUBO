@@ -440,6 +440,22 @@ footer {
   background-image: url(img/lp5.png);
 }
 
+#lp6 {
+  background-image: url(img/lp1.png);
+}
+
+#lp7 {
+  background-image: url(img/lp2.png);
+}
+
+#lp8 {
+  background-image: url(img/lp3.png);
+}
+
+#lp9 {
+  background-image: url(img/lp5.png);
+}
+
 /*Post Style*/
 
 .h2post {
@@ -482,6 +498,22 @@ footer {
 
 #p5 {
   background-image: url(img/p5.png);
+}
+
+#p6 {
+  background-image: url(img/p1.png);
+}
+
+#p7 {
+  background-image: url(img/p2.png);
+}
+
+#p8 {
+  background-image: url(img/p3.png);
+}
+
+#p9 {
+  background-image: url(img/p4.png);
 }
 
 /*General Post/Lessonplan Style*/
