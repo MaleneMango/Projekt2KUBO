@@ -619,6 +619,7 @@ article {
 #approvedpost p {
   font-size: 14px;
   margin-top: 5px;
+  margin-right: 10px;
 }
 
 #approvedpost img {
@@ -643,36 +644,34 @@ article {
 
 /*Commment Section*/
 
-#newcomment {
+#commentsection {
   margin-top: 10px;
 }
 
-#commentform {
+#item {
   border-radius: 3px;
   width: 400px;
   border-style: solid;
+  border-color: #f1f3f2;
   font-family: 'Lato', sans-serif;
   padding: 6px 9px;
 }
 
-textarea:focus{
+input:focus{
   outline-color: #00a29b;
 }
 
-#addcomment {
-  background-color: #00a29b;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: #00a29b;
-  padding: 7px;
-  color: #fff;
-  font-weight: bold;
-  margin-top: 5px;
+#comments li {
+  list-style-type: none;
+  padding: 20px;
 }
 
-#addcomment:hover {
-  background-color: #fff;
-  color: #00a29b;
-  cursor: pointer;
-  border-color: #00a29b;
+#resetbtn {
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #fff;
 }
