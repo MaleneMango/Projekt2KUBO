@@ -12,6 +12,10 @@ h1 {
   font-size: 28px;
 }
 
+h2 {
+  margin-bottom: 10px;
+}
+
 p {
   font-family: 'Lato', sans-serif;
 }
@@ -609,6 +613,7 @@ article {
   margin-left: 10px;
   margin-top: 40px;
   margin-bottom: 35px;
+  margin-right: 10px;
 }
 
 #approvedpost h4 {
@@ -619,7 +624,7 @@ article {
 #approvedpost p {
   font-size: 14px;
   margin-top: 5px;
-  margin-right: 10px;
+  text-align: center;
 }
 
 #approvedpost img {
@@ -632,6 +637,7 @@ article {
 
 #favorite:hover {
   background-image: url(img/starfill.png);
+  cursor: pointer;
 }
 
 .posticons {
@@ -674,4 +680,28 @@ input:focus{
     overflow: hidden;
     outline:none;
     color: #fff;
+}
+
+.comments {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #f3f3f3;
+  height: 70px;
+  width: 417px;
+  margin-bottom: 10px;
+}
+
+.userprof {
+  float: left;
+  padding: 10px;
+}
+
+.userinfo {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #707070;
+}
+
+.usercomment {
+  font-size: 16px;
 }
