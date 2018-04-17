@@ -1,3 +1,5 @@
+// localStorage Commentsection
+
 var form = document.querySelector('form');
 var ul = document.querySelector('ul');
 var button = document.querySelector('button');
@@ -32,3 +34,11 @@ button.addEventListener('click', function () {
     ul.removeChild(ul.firstChild);
   }
 });
+
+
+// Star-button points
+
+function givePoints() {
+  document.getElementById("points").innerHTML = "<b>Points:</b> 35";
+  document.getElementById("favorite").src="img/starfill.png";
+  }
