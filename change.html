@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>KEDU - The Educational Community and Curriculum Platform</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="img/KEDU-Logo.png" alt="KEDU Logo" id="logo"></a>
+      <nav>
+        <div id="list">
+          <div class="menu"><a href="index.html">DASHBOARD</a></div>
+          <div class="menu">DOWNLOADS</div>
+          <div class="menu">FAQ</div>
+          <div class="dropdown">
+            <div class="dropbtnlang"><img src="img/int.png" alt=""></div>
+            <div class="lang-content">
+              <a href=""><img src="img/int2.png" alt="international"><p>International</p></a>
+              <a href=""><img src="img/NO.png" alt="Flag (Norway)"><p>Norway</p></a>
+              <a href=""><img src="img/DK.png" alt="Flag (Denmark)"><p>Denmark</p></a>
+              <a href=""><img src="img/SE.png" alt="Flag (Sweden)"><p>Sweden</p></a>
+              <a href=""><img src="img/FI.png" alt="Flag (Finland)"><p>Finland</p></a>
+              <a href=""><img src="img/UK.png" alt="Flag (United Kingdom)"><p>United Kingdom</p></a>
+              <a href=""><img src="img/US.png" alt="Flag (United States)"><p>United States</p></a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropbtnprof"><img src="img/user.png" alt="KUBO Profile Image"></div>
+            <div class="prof-content">
+              <a href="">My Profile</a>
+              <a href="">Settings</a>
+              <a href="">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="dashboard">
+    <aside id="sidebar">
+      <img src="img/profilepic2.png" alt="profile picture (red)" id="profpic2">
+      <div id="profinfo">
+        <p><b>Name:</b> Birtgitte Johnson <br>
+        <b>School:</b> New York Primary School<br>
+        <b>Country: </b> United States <br></p>
+        <p id="points"><b>Points:</b> 25</p>
+      </div>
+<br />
+      <footer>&copy; Copyright 2018</footer>
+    </aside>
+    <div id="feed">
+      <div id="postpreview">
+        <article>
+          <a href="index.html"><img src="img/goback.png" alt="Return button"></a>
+          <div id="starcommentshare">
+            <img src="img/star.png" alt="favorite" id="favorite" class="posticons" onclick="givePoints()">
+            <a href="#item"><img src="img/comment.png" alt="comment" class="posticons"></a>
+            <a href=""><img src="img/share.png" alt="share" class="posticons"></a>
+          </div>
+          <h1>Is there a place where we can buy the parts for the robot individually?</h1>
+          <p id="date">Posted 11/11/2018 by Birtgitte Johnson</p>
+           <p id="posttext">I can only find the webshop where I can buy the whole robot in one package, but I was thinking if there was a place where I can buy the parts individually? I would like a new 'head' for one of my class' robots, but it seems like I have to buy the whole thing, or maybe you guys know if they are able to repair the robot at KUBO, or maybe you guys know of some third party repair option? I really hope you guys can give me an answer, because now my class only have four working robots and i usually make five groups with four student in my class, five in each group is just too many I think. I hope you can help me.</p>
+
+          <section id="commentsection">
+            <h2>Comments</h2>
+
+            <div class="comments">
+              <img src="img/prof.png" alt="" class="userprof">
+              <p class="userinfo">Karen Jeppesen, Kroggaardskolen</p>
+              <p class="usercomment">I don't think that's possible yet</p>
+            </div>
+            <div class="comments2">
+              <img src="img/prof2.png" alt="" class="userprof">
+              <p class="userinfo">Birtgitte Johnson, New York Primary School</p>
+              <p class="usercomment">What a shame, I think that would make them sell even more.</p>
+
+            </div>
+            <div class="comments">
+              <img src="img/prof3.png" alt="" class="userprof">
+              <p class="userinfo">Fred Stones, Wilbraham Primary School</p>
+              <p class="usercomment">Good question. I was wondering the same thing.</p>
+            </div>
+
+
+            <div id="comments">
+              <ul>
+              </ul>
+            </div>
+            <div id="newcomment">
+            <form>
+              <input id="item" type="text" placeholder="Write a comment...">
+            </form>
+          </div>
+          <button id="resetbtn">Reset</button>
+          </section>
+        </article>
+      </div>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+  </body>
+</html>
