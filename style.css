@@ -489,15 +489,15 @@ footer {
 }
 
 #p2 {
-  background-image: url(img/p2.png);
+  background-image: url(img/p12.png);
 }
 
 #p3 {
-  background-image: url(img/p3.png);
+  background-image: url(img/p333.png);
 }
 
 #p4 {
-  background-image: url(img/p4.png);
+  background-image: url(img/p44.png);
 }
 
 #p5 {
@@ -603,6 +603,18 @@ article {
   display: block;
   margin: 0 auto;
 }
+#profpic2 {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+   margin-left: 20px;
+}
+#profpic3 {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+   margin-left: 20px;
+}
 
 #profinfo {
   font-size: 14px;
@@ -687,6 +699,14 @@ input:focus{
   border-style: solid;
   border-color: #f3f3f3;
   height: 70px;
+  width: 417px;
+  margin-bottom: 10px;
+}
+.comments2 {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #f3f3f3;
+  height: 80px;
   width: 417px;
   margin-bottom: 10px;
 }

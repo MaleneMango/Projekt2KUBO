@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>KEDU - The Educational Community and Curriculum Platform</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="img/KEDU-Logo.png" alt="KEDU Logo" id="logo"></a>
+      <nav>
+        <div id="list">
+          <div class="menu"><a href="index.html">DASHBOARD</a></div>
+          <div class="menu">DOWNLOADS</div>
+          <div class="menu">FAQ</div>
+          <div class="dropdown">
+            <div class="dropbtnlang"><img src="img/int.png" alt=""></div>
+            <div class="lang-content">
+              <a href=""><img src="img/int2.png" alt="international"><p>International</p></a>
+              <a href=""><img src="img/NO.png" alt="Flag (Norway)"><p>Norway</p></a>
+              <a href=""><img src="img/DK.png" alt="Flag (Denmark)"><p>Denmark</p></a>
+              <a href=""><img src="img/SE.png" alt="Flag (Sweden)"><p>Sweden</p></a>
+              <a href=""><img src="img/FI.png" alt="Flag (Finland)"><p>Finland</p></a>
+              <a href=""><img src="img/UK.png" alt="Flag (United Kingdom)"><p>United Kingdom</p></a>
+              <a href=""><img src="img/US.png" alt="Flag (United States)"><p>United States</p></a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropbtnprof"><img src="img/user.png" alt="KUBO Profile Image"></div>
+            <div class="prof-content">
+              <a href="">My Profile</a>
+              <a href="">Settings</a>
+              <a href="">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="dashboard">
+    <aside id="sidebar">
+      <img src="img/profilepic3.png" alt="profile picture (red)" id="profpic2">
+      <div id="profinfo">
+        <p><b>Name:</b> Yasmin Schakowosk<br>
+        <b>School:</b> Lake Street Primary<br>
+        <b>Country: </b>United States <br></p>
+        <p id="points"><b>Points:</b> 30</p>
+      </div>
+  <div id="approvedpost">
+    <img src="img/approvedstamp.png" alt="KUBO-Approved stamp">
+    <h4>KUBO says:</h4>
+    <p>"That is a great idea! We will definitely take this into consideration. So many options!"</p>
+  </div>
+      <footer>&copy; Copyright 2018</footer>
+    </aside>
+    <div id="feed">
+      <div id="postpreview">
+        <article>
+          <a href="index.html"><img src="img/goback.png" alt="Return button"></a>
+          <div id="starcommentshare">
+            <img src="img/star.png" alt="favorite" id="favorite" class="posticons" onclick="givePoints()">
+            <a href="#item"><img src="img/comment.png" alt="comment" class="posticons"></a>
+            <a href=""><img src="img/share.png" alt="share" class="posticons"></a>
+          </div>
+          <h1>Tagtiles with Letters?</h1>
+          <p id="date">Posted 01/03/2019 by Yasmin Schakowosk</p>
+           <p id="posttext">So, I was thinking. Wouldn't it be awesome if you could buy the Tagtiles with letters instead of numbers? Maybe it could be used as a game for the children, so they could learn the alphabet or spell words. I don't know if it's possible, but only a thought I had. Cheers</p>
+
+          <section id="commentsection">
+            <h2>Comments</h2>
+
+            <div class="comments">
+              <img src="img/prof.png" alt="" class="userprof">
+              <p class="userinfo">Donald Trump, School of Life</p>
+              <p class="usercomment">That's a GREAT idea!</p>
+            </div>
+            <div class="comments2">
+              <img src="img/prof2.png" alt="" class="userprof">
+              <p class="userinfo">Kurt Hummel, New York Primary School</p>
+              <p class="usercomment">I could definitly buy that.</p>
+
+            </div>
+            <div class="comments">
+              <img src="img/prof3.png" alt="" class="userprof">
+              <p class="userinfo">Rachel Berry, Wilbraham Primary School</p>
+              <p class="usercomment">I'm teaching english, so I would really like that.</p>
+          </div>
+          <div class="comments">
+            <img src="img/prof4.png" alt="" class="userprof">
+            <p class="userinfo">Blaine Anderson, Chelsea Primary School</p>
+            <p class="usercomment">That would be awesome!</p>
+          </div>
+      <div class="comments">
+        <img src="img/prof5.png" alt="" class="userprof">
+        <p class="userinfo">Dan Hansen, Søhusskolen</p>
+        <p class="usercomment">Or maybe get the robot to pronounce the words?</p>
+      </div>
+
+
+
+            <div id="comments">
+              <ul>
+              </ul>
+            </div>
+            <div id="newcomment">
+            <form>
+              <input id="item" type="text" placeholder="Write a comment...">
+            </form>
+          </div>
+          <button id="resetbtn">Reset</button>
+          </section>
+        </article>
+      </div>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+  </body>
+</html>
