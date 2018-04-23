@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>KEDU - The Educational Community and Curriculum Platform</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="img/KEDU-Logo.png" alt="KEDU Logo" id="logo"></a>
+      <nav>
+        <div id="list">
+          <div class="menu"><a href="index.html">DASHBOARD</a></div>
+          <div class="menu">DOWNLOADS</div>
+          <div class="menu">FAQ</div>
+          <div class="dropdown">
+            <div class="dropbtnlang"><img src="img/int.png" alt=""></div>
+            <div class="lang-content">
+              <a href=""><img src="img/int2.png" alt="international"><p>International</p></a>
+              <a href=""><img src="img/NO.png" alt="Flag (Norway)"><p>Norway</p></a>
+              <a href=""><img src="img/DK.png" alt="Flag (Denmark)"><p>Denmark</p></a>
+              <a href=""><img src="img/SE.png" alt="Flag (Sweden)"><p>Sweden</p></a>
+              <a href=""><img src="img/FI.png" alt="Flag (Finland)"><p>Finland</p></a>
+              <a href=""><img src="img/UK.png" alt="Flag (United Kingdom)"><p>United Kingdom</p></a>
+              <a href=""><img src="img/US.png" alt="Flag (United States)"><p>United States</p></a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropbtnprof"><img src="img/user.png" alt="KUBO Profile Image"></div>
+            <div class="prof-content">
+              <a href="">My Profile</a>
+              <a href="">Settings</a>
+              <a href="">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="dashboard">
+    <aside id="sidebar">
+      <img src="img/profilepic1.png" alt="profile picture (purple)" id="profpic3">
+      <div id="profinfo">
+        <p><b>Name:</b> Matthias Nelson <br>
+        <b>School:</b>The West London Free School Primary<br>
+        <b>Country: </b> England <br></p>
+        <p id="points"><b>Points:</b> 30</p>
+      </div>
+<br/>
+      <footer>&copy; Copyright 2018</footer>
+    </aside>
+    <div id="feed">
+      <div id="postpreview">
+        <article>
+          <a href="index.html"><img src="img/goback.png" alt="Return button"></a>
+          <div id="starcommentshare">
+            <img src="img/star.png" alt="favorite" id="favorite" class="posticons" onclick="givePoints()">
+            <a href="#item"><img src="img/comment.png" alt="comment" class="posticons"></a>
+            <a href=""><img src="img/share.png" alt="share" class="posticons"></a>
+          </div>
+          <h1>New mats for my robots?</h1>
+          <p id="date">Posted 02/28/2019 by Matthias Nelson</p>
+           <p id="posttext">I have been using the KUBO robot in my class for the past 2 months, I have five robots in total, and some of my mats are beginning to get a little bit worn, because of the children aren't taking care of them that well. So, I was thinking if I could buy the mats separately?</p>
+
+          <section id="commentsection">
+            <h2>Comments</h2>
+
+            <div class="comments">
+              <img src="img/prof.png" alt="" class="userprof">
+              <p class="userinfo">Heidi Schmidt, Robinson Grundschule</p>
+              <p class="usercomment">Mine is also worn, so I would like to know that too.</p>
+            </div>
+            <div class="comments2">
+              <img src="img/prof2.png" alt="" class="userprof">
+              <p class="userinfo">Sandy Hua, Beijing Public School</p>
+              <p class="usercomment">Good question</p>
+
+            </div>
+            <div class="comments">
+              <img src="img/prof4.png" alt="" class="userprof">
+              <p class="userinfo">Patricia Wood, Dublin Primary School</p>
+              <p class="usercomment">Following</p>
+            </div>
+
+        <div class="comments">
+          <img src="img/prof5.png" alt="" class="userprof">
+          <p class="userinfo">Fred Stones, Wilbraham Primary School</p>
+          <p class="usercomment">Good question. I was wondering the same thing.</p>
+        </div>
+
+
+
+
+            <div id="comments">
+              <ul>
+              </ul>
+            </div>
+            <div id="newcomment">
+            <form>
+              <input id="item" type="text" placeholder="Write a comment...">
+            </form>
+          </div>
+          <button id="resetbtn">Reset</button>
+          </section>
+        </article>
+      </div>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+  </body>
